@@ -31,7 +31,7 @@ async def get_favicon():
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return TEMPLATE.TemplateResponse(
-        "index.html",
+        "index2.html",
         {
             "request": request,
         }
